@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1033077/public_html/Bakso Nyelekamin/
+    - export DEPLOYPATH=/home/u1033077/public_html/Bakso Nyelekamin
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
