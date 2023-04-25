@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;450;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../dist/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Bakso Nyelekamin - Bakso Enak Banget</title>
+</head>
+
+<body class="bg-primary2">
+    <main id="home" class="pt-8 pb-0 bg-primary2">
+        <div class="flex flex-col items-center text-center px-4 ">
+            <div class="rounded-full max-w-[150px] xl:max-w-[200px] overflow-hidden mb-8 mt-2 shadow-md">
+                <a href="index.html">
+                    <img src="../dist/img/logo.png" alt="company_logo">
+                </a>
+            </div>
+            <div class="flex flex-col justify-center lg:flex-row mb-8">
+                <div class="mb-4 w-full px-4 block lg:hidden">
+                    <img src="https://source.unsplash.com/700x400?sepiring bakso" alt="" class="rounded-lg shadow-md">
+                </div>
+                <div class="w-full px-4 hidden lg:block ">
+                    <img src="https://source.unsplash.com/1400x500?sepiring bakso" alt="" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+
+        <section id="mitra" class="py-4 px-16 flex justify-center mb-16">
+            <div class="w-2/5 text-end mr-4">
+                <h2 class="text-4xl font-bold text-end">
+                    Informasi <br> Kemitraan
+                </h2>
+            </div>
+            <div class="w-3/5 ml-4">
+                <p class="text-base font-medium mb-2 w-3/4">
+                    Bergabung dengan mitra kami di seluruh Indonesia dalam misi menyajikan Bakso yang
+                    berkualitas. Demi menciptakan UMKM yang maju dan membuka lapangan pekerjaan, sehingga terwujudnya
+                    masyarakat Indonesia yang bangga atas produk buatan dalam negeri.
+                </p>
+                <p class="text-base font-medium mb-8">
+                    Hubungi narahubung berikut untuk info lebih lanjut terkait franchise Bakso Nyelekamin.
+                </p>
+                <div class="w-fit bg-primary1 text-slate-300 rounded-lg px-8 py-3 hover:bg-slate-800">Hubungi Kami
+                </div>
+            </div>
+        </section>
+
+        <section id="mitra" class="pt-4 pb-4 px-16 flex lg:flex-row justify-center">
+            <div class="w-2/5 text-end mr-4">
+                <h2 class="text-4xl font-bold text-end mb-4">
+                    Formulir <br> Franchise
+                </h2>
+                <p class="text-base text-end font-medium">
+                    Atau isi formulir berikut agar tim kami <br> dapat menghubungi Anda terkait <br> informasi tentang
+                    franchise
+                    Bakso Nyelekamin
+                </p>
+            </div>
+            <div class="w-3/5 ml-4">
+                <form name="franchise-data-form">
+                    <div>
+                        <label for="nama"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Nama
+                            Lengkap</label>
+                        <input type="text"
+                            class="px-3 py-2 border shadow rounded w-3/4 block text-small placeholder:text-slate-400 focus:outline-none focus:ring-primary1 focus:border-primary2 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+                            id="name" placeholder="masukkan nama.." name="nama" required>
+                    </div>
+                    <div>
+                        <label for="nomor-telepon"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Nomor
+                            telepon</label>
+                        <input type="text"
+                            class="px-3 py-2 border shadow rounded w-3/4 block text-small placeholder:text-slate-400 focus:outline-none focus:ring-primary1 focus:border-primary2 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+                            id="nomor-telepon" placeholder="0812345678910.." name="kontak" pattern="0\d{9,13}"
+                            maxlength="13" required>
+                    </div>
+                    <div>
+                        <label for="email"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Email
+                        </label>
+                        <input type="email"
+                            class="px-3 py-2 border shadow rounded w-3/4 block text-small placeholder:text-slate-400 focus:outline-none focus:ring-primary1 focus:border-primary2 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+                            id="email" placeholder="masukkan email.." name="email" required>
+                    </div>
+                    <div class="">
+                        <label for="tempat-tinggal"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">
+                            Tempat tinggal</label>
+                        <input type="text"
+                            class="px-3 py-2 border shadow rounded w-3/4 block text-small placeholder:text-slate-400 focus:outline-none focus:ring-primary1 focus:border-primary2 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+                            id="tempat-tinggal" placeholder="masukkan tempat tinggal.." name="tempat tinggal" required>
+                    </div>
+                    <div class="">
+                        <label for="umur"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Usia</label>
+                        <input type="text"
+                            class="px-3 py-2 border shadow rounded w-3/4 block text-small placeholder:text-slate-400 focus:outline-none focus:ring-primary1 focus:border-primary2 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+                            id="umur" placeholder="masukkan usia.." name="umur" required>
+                    </div>
+                    <div>
+                        <label for="lokasi-franchise"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Rencana
+                            mau buka di kota mana</label>
+                        <input type="text"
+                            class="px-3 py-2 border shadow rounded w-3/4 block text-small placeholder:text-slate-400 focus:outline-none focus:ring-primary1 focus:border-primary2 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+                            id="lokasi-franchise" placeholder="masukkan nama kota.." name="lokasi franchise" required>
+                    </div>
+                    <div class="">
+                        <label for="experience"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Sudah
+                            pernah memilik usaha atau belum</label>
+                        <div class="">
+                            <input type="radio" id="radio1" name="pengalaman usaha"
+                                value="Sudah pernah berpengalaman memiliki perusahaan"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 " required>
+                            <label for="radio1" class="ml-2">Sudah pernah berpengalaman memiliki perusahaan</label>
+                        </div>
+                        <div class="">
+                            <input type="radio" id="radio2" name="pengalaman usaha"
+                                value="belum pernah berpengalaman memiliki perusahaan"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 " required>
+                            <label for="radio2" class="ml-2">belum pernah berpengalaman memiliki perusahaan</label>
+                        </div>
+                    </div>
+                    <div class="">
+                        <label for="pendapatan"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Rata-rata
+                            pendapatan bulanan</label>
+                        <div class="">
+                            <input type="radio" id="pendapatan1" name="rata-rata pendapatan" value="5-15 jt per bulan"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 " required>
+                            <label for="pendapatan1" class="ml-2">5-15 jt per bulan</label>
+                        </div>
+                        <div class="">
+                            <input type="radio" id="pendapatan2" name="rata-rata pendapatan" value="15-50 jt per bulan"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 " required>
+                            <label for="pendapatan2" class="ml-2">15-50 jt per bulan</label>
+                        </div>
+                        <div class="">
+                            <input type="radio" id="pendapatan3" name="rata-rata pendapatan" value="50-100 jt per bulan"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 " required>
+                            <label for="pendapatan3" class="ml-2">50-100 jt per bulan</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="tempat-operasional"
+                            class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Sudah
+                            memiliki tempat atau belum</label>
+                        <div class="">
+                            <input type="radio" id="operasional1" name="memiliki tempat atau belum"
+                                value="sudah memiliki tempat untuk digunakan"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 " required>
+                            <label for="operasional1" class="ml-2">sudah memiliki tempat untuk digunakan</label>
+                        </div>
+                        <div class="">
+                            <input type="radio" id="operasional2" name="memiliki tempat atau belum"
+                                value="belum memiliki tempat untuk digunakan"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 " required>
+                            <label for="operasional2" class="ml-2">belum memiliki tempat untuk digunakan</label>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="kepemilikan-tempat"
+                            class="block font-semibold mb-1 after:content-[''] after:text-pink-700 after:ml-0.5">Tempat
+                            sewa atau milik sendiri</label>
+                        <div class="">
+                            <input type="radio" id="kepemilikan1" name="kepemilikan tempat"
+                                value="tempat yang akan digunakan milik sendiri"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 ">
+                            <label for="kepemilikan1" class="ml-2">tempat yang akan digunakan milik sendiri</label>
+                        </div>
+                        <div class="">
+                            <input type="radio" id="kepemilikan2" name="kepemilikan tempat"
+                                value="tempat yang akan digunakan sewa"
+                                class="h-4 w-4 checked:accent-primary1 focus:ring-primary1 ">
+                            <label for="kepemilikan2" class="ml-2">tempat yang akan digunakan sewa</label>
+                        </div>
+                    </div>
+                    <button type="submit"
+                        class=" px-2 py-2 w-3/4 bg-primary1 text-slate-300 rounded-lg hover:bg-slate-800">Kirim</button>
+                    <button type="button"
+                        class=" px-2 py-2 bg-primary2 w-3/4 rounded-lg flex justify-center btn-loading invisible"
+                        disabled>
+                        <svg class="animate-spin h-5 w-5 mr-3 align-middle" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M222.7 32.1c5 16.9-4.6 34.8-21.5 39.8C121.8 95.6 64 169.1 64 256c0 106 86 192 192 192s192-86 192-192c0-86.9-57.8-160.4-137.1-184.1c-16.9-5-26.6-22.9-21.5-39.8s22.9-26.6 39.8-21.5C434.9 42.1 512 140 512 256c0 141.4-114.6 256-256 256S0 397.4 0 256C0 140 77.1 42.1 182.9 10.6c16.9-5 34.8 4.6 39.8 21.5z" />
+                            </svg>
+                        </svg>
+                        Processing...
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div class="bg-primary1 border-t-4 rounded-b text-primary2 px-4 py-3 shadow-md mb-12 mx-48 alert-sukses hidden"
+        role="alert">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <svg class="h-6 w-6 text-primary2 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path
+                        d="M10 0a10 10 0 100 20 10 10 0 000-20zm0 18.75a8.75 8.75 0 110-17.5 8.75 8.75 0 010 17.5zm-.63-6.31a.63.63 0 01-.9 0L7.2 10.71a.63.63 0 11.9-.82l1.67 1.6 4.5-4.31a.63.63 0 11.9.82l-5.4 5.18z" />
+                </svg>
+                <p class="font-bold">Form telah diisi.</p>
+            </div>
+            <button class="text-primary2 hover:text-blue-700 focus:outline-none focus:text-blue-700"
+                onclick="closeAlert()">
+                <svg class="h-6 w-6 fill-current" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <title>Close</title>
+                    <path
+                        d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.82l-2.651 3.03a1.198 1.198 0 01-1.697 0 1.198 1.198 0 010-1.697L8.303 10 5.652 6.97a1.198 1.198 0 010-1.697c.469-.469 1.228-.469 1.697 0L10 8.18l2.651-3.03c.469-.469 1.228-.469 1.697 0a1.198 1.198 0 010 1.697L11.697 10l2.651 2.03c.469.469.469 1.228 0 1.698z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- footer section start -->
+    <section id="footer" class="pt-20 h-full bg-slate-900">
+        <div class="flex flex-col items-center text-center px-4 ">
+            <div class="rounded-full max-w-[150px] overflow-hidden mb-4 shadow-md">
+                <img src="../dist/img/logo 2.png" alt="company_logo">
+            </div>
+            <h3 class="text-primary2 font-bold text-lg mb-1">Bakso Nyelekamin</h3>
+            <h3 class="text-slate-300 text-md mb-1">Jalan Raya Buntu, Pasuruan,</h3>
+            <h3 class="text-slate-300 text-md mb-1">Mujur,Kec.Kroya, Kabupaten Cilacap,</h3>
+            <h3 class="text-slate-300 text-md mb-5">Jawa Tengah,53282</h3>
+            <a href="https://www.google.com/maps/place/Bakso+Nyelekamin+Prasmanan/@-7.6173026,109.2416071,15z/data=!3m1!4b1!4m6!3m5!1s0x2e654199fd836da1:0xb2485b69ca1f3d8a!8m2!3d-7.6173027!4d109.2503404!16s%2Fg%2F11t75rbpwx"
+                class="underline font-extrabold text-white mb-5" target="_blank">See on google map</a>
+            <div class="flex mb-5">
+                <a href="https://youtube.com/" target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+                    <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="fill-current">
+                        <title>YouTube</title>
+                        <path
+                            d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/baksonyelekamin/" target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20"
+                        class="fill-current">
+                        <title>Instagram</title>
+                        <path
+                            d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                    </svg>
+                </a>
+                <a href="https://twitter.com/" target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current" width="20">
+                        <title>Twitter</title>
+                        <path
+                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                    </svg>
+                </a>
+            </div>
+            <h3 class="text-slate-300 text-md mb-5">© 2023 Bakso Nyelekamin. All Rights Reserved.</h3>
+        </div>
+    </section>
+    <!-- footer section Stop  -->
+
+    <!-- whatsapp-icon section start -->
+    <div class="inline-flex items-center absolute">
+        <a href="https://wa.me/6281222388346" id="whatsapp" target="_blank"
+            class="fixed w-[60px] h-[60px] flex justify-center rounded-full items-center bg-green-500 hover:bg-primary hover:bg-green-400 text-white bottom-4 right-4 hover:scale-110 ease-out duration-300 animate-bounce hover:animate-none">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current" width="30">
+                <title>WhatsApp</title>
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+            </svg>
+        </a>
+    </div>
+    <!-- whatsapp-icon section stop -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwofPV4hhs63XcNQup5OWeBjcVUVRiDLl4kBpPGuTZd8ofZupX9ExgTjBPkoxa-Xpc/exec'
+        const form = document.forms['franchise-data-form']
+        const alertSukses = document.querySelector('.alert-sukses');
+        const btnLoading = document.querySelector('.btn-loading');
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            btnLoading.classList.toggle('invisible');
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    btnLoading.classList.toggle('invisible');
+                    alertSukses.classList.toggle('hidden');
+                    form.reset();
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+        function closeAlert() {
+            alertSukses.remove();
+        }
+    </script>
+</body>
+
+</html>
